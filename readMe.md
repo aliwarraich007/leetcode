@@ -5,7 +5,7 @@
 <li>TypeScript </li>
 <li>Python </li>
   <h1>🗂️ Folder structure</h1>
-  ```bash
+  ```
   easy/
 ├── python/
 │   └── ...
