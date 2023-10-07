@@ -1,38 +1,77 @@
-<h1> Leet code problems </h1>
-<p> This repo contains solutions for leetcode problems along with their possible solutions. I'll try my best to keep the repositery updated and add one problem daily </p>
-<p> Here are the languages in which solutions are provided.
-<ul>
-<li>TypeScript </li>
-<li>Python </li>
-  <h1>🗂️ Folder structure</h1>
-  ```
-  easy/
-├── python/
-│   └── ...
-└── typescript/
-    └── ...
+# Leet Code
+
+This repository contains leet code problems and solutions categorized in easy, medium and hard. The main idea is to improve problem solving skills and get expert in interested programming languages. 
+
+## Getting Started
+
+To see the solution, inside the root directory, you can see three level of categories, select any and you will be able to see TS and Python directories. The name of the files indicate the leet code problem number followed by problem name.
+
+### Difficulty Level
+
+-   [Easy](Easy/)
+-   [Medium](Medium/)
+-   [Hard](Hard/)
+
+## Directory Structure
+
+The repository is organized as follows:
+
+```
+easy/
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    └── readMe.md
 medium/
-├── python/
-│   └── ...
-└── typescript/
-    └── ...
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    └── readMe.md
 hard/
-├── python/
-│   └── ...
-└── typescript/
-    └── ...
-  ```
-<table>
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    └── readMe.md
+readMe.md
+```
 
-| Day         | Topic                                    | Learning Objectives                                                                                           |
-|-------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Day 1       | Introduction to Python                   | - Python syntax basics - Data types and variable assignment - Input/output operations                            |
-| Day 2       | Control Flow and Functions               | - Control flow constructs (if, for, while) - Function definition and usage                                       |
-| Day 3       | Data Structures                          | - Lists, tuples, dictionaries, sets - Operations on data structures                                            |
-| Day 4       | File Handling and Modules                | - Reading/writing files - Working with modules and packages                                                    |
-| Day 5       | Exception Handling and Error Handling    | - Handling exceptions - Customizing error messages                                                            |
-| Day 6       | Object-Oriented Programming (OOP)       | - Principles of OOP - Creating and using classes and objects                                                    |
-| Day 7       | Python Libraries and Real-World Apps     | - Exploring Python libraries and frameworks - Choosing a domain of interest and working on a related project |
+## Contribution
 
-This table provides a structured approach to learning Python over a one-week period. Each day focuses on specific topics and learning objectives to help you quickly grasp Python's essentials and practical applications.
-</table>
+For problems with multiple solution, you can add your solution by creating a new file in the category directory and naming the file with some tag like `problem-name-my-solution.py`
+```
+easy/
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    ├── problem-#-new/
+    │   ├── problem-name.py
+    │   └── problem-name.ts
+    └── readMe.md
+medium/
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    ├── problem-#-new/
+    │   ├── problem-name.py
+    │   └── problem-name.ts
+    └── readMe.md
+hard/
+└── problem-#/
+    ├── problem-name.py
+    ├── problem-name.ts
+    ├── problem-#-new/
+    │   ├── problem-name.py
+    │   └── problem-name.ts
+    └── readMe.md
+readMe.md
+```
+
+## Contributing
+
+Contributions are welcome! If you'd like to add your own solutions or improve existing ones, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request to this repository.
