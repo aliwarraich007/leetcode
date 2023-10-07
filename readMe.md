@@ -1,13 +1,28 @@
 <h1> Leet code problems </h1>
-
 <p> This repo contains solutions for leetcode problems along with their possible solutions. I'll try my best to keep the repositery updated and add one problem daily </p>
-
 <p> Here are the languages in which solutions are provided.
 <ul>
 <li>TypeScript </li>
-<li> Python </li>
+<li>Python </li>
+  <h1>🗂️ Folder structure</h1>
+  ```bash
+  easy/
+├── python/
+│   └── ...
+└── typescript/
+    └── ...
+medium/
+├── python/
+│   └── ...
+└── typescript/
+    └── ...
+hard/
+├── python/
+│   └── ...
+└── typescript/
+    └── ...
+  ```
 <table>
-  Certainly, here's the Python learning roadmap in a tabular form:
 
 | Day         | Topic                                    | Learning Objectives                                                                                           |
 |-------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------|
